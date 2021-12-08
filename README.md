@@ -1,14 +1,20 @@
 # project_1
 
-Project Title: The Breakdown of inflation in the Southwest Region
+Project Title: Gas Price Inflation by region in America
 
-Team Members: Juan Estrella, Casey Thayer, Dick Brown, Fatih 
+Team Members: Juan Estrella, Casey Thayer, Dick Brown, Fatih Ezgin
 
-Project Description/Outline: An in depth anlaysis per state of the southwest region the extreme rise in inflation across all industries over the last 5 years.
+Project Description/Outline: An in depth analysis per region of the rise in gas prices over the last 5 years.
 
-Research Questions to Answer: What are the actual levels of inflation to the average consumer that take in to account increased prices on groceries, commodities, cost of living, healthcare, and other consumer goods? How does this number compare to the numbers posted by US fed and the the Us labor bureau? What states have been affected the most and least by inflation over the last 5 years?
+Research Questions to Answer: How have gas prices changed over the last 5 years? How does this number compare from region to region? What regions have been affected the most by the change in prices? What regions have been affected the least?
 
-Datasets to be Used: state government website data, dept of economic development 
+Datasets to be Used: https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline
 
+Rough Breakdown of Tasks: 
 
-Rough Breakdown of Tasks: gathering data for new dataset for comparitive prices, creating code template for each state, design of how data should be presented in powerpoint. 
+-create 3 scripts: 
+    -extracting the data from the bls api (Primary Juan, Reviewer Fatih)
+    -putting data in to a data frame and analyzing it (Primary Fatih, Reviewer Casey)
+    -visualization of data (Primary Casey, Reviewer Dick)
+    
+-design of how data should be presented in powerpoint (Primary Dick, Reviewer Juan)
