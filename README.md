@@ -63,7 +63,7 @@ Gas_prices_df
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
 --------------------------------------------------------------------------------
 
-Script 2 - Data Analysis 
+Script #2 - Data Analysis 
 
 
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
@@ -73,7 +73,7 @@ SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Descr
 2- Cumulative change over time 
 3- Average commute is 30 miles/day
 -----------------
-Script 3 
+Script #3 
 
 Gas_prices_df analysis using line chart, geoviz, geoJSON, along with average commute data
 --------------------------
