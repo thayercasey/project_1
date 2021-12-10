@@ -53,10 +53,10 @@ for series in json_data['Results']['series']:
 ```
 
 
--Download series description tables and periods . Manual download 
--Upload everything back into into a dataframe.  
--Use pandas read_csv method to read all three tables into its dataframes 
--Join three tables into Gas_prices_df
+**-Download series description tables and periods. Manual download 
+**-Upload everything back into into a dataframe.  
+**-Use pandas read_csv method to read all three tables into its dataframes 
+**-Join three tables into Gas_prices_df
 
 Gas_prices_df will look like this:
 
