@@ -53,17 +53,17 @@ for series in json_data['Results']['series']:
 ```
 
 
-#### Download series description tables and periods . Manual download 
-# Upload everything back into into a dataframe.  
-Use pandas read_csv method to read all three tables into its dataframes 
-Join three tables into Gas_prices_df
+-Download series description tables and periods . Manual download 
+-Upload everything back into into a dataframe.  
+-Use pandas read_csv method to read all three tables into its dataframes 
+-Join three tables into Gas_prices_df
 
-Gas_prices_df 
+Gas_prices_df will look like this:
 
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
 
 
-Script #2 - Data Analysis 
+**Script #2 - Data Analysis 
 
 
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
@@ -73,12 +73,12 @@ SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Descr
 2- Cumulative change over time 
 3- Average commute is 30 miles/day
 
-Script #3 
+**Script #3 
 
 Gas_prices_df analysis using line chart, geoviz, geoJSON, along with average commute data
 
 
-PowerPoint 
+**PowerPoint 
 Page 1 - Introduction+ What the project is about = What are we solving = HR Executive is trying to figure out gas inflation on salary increases 
 Page 2 - The data set - where we pulled it from ( BLS_) , how we pulled it,  
 Page 3-  Approach to the development : 1- Data extraction (manual or automated) 2- Data transformation ( creating dataframes,joining tables) 3- Analysis 4-Visulizations 
