@@ -50,6 +50,7 @@ for series in json_data['Results']['series']:
     output.close()
 
 #### above code will download the gasoline prices / series ids and periods with years into the local machine. 
+Other tables and data will either be manually downloaded from the BLS.gov or hard coded directly in the code (if small)
 ```
 
 
@@ -63,7 +64,7 @@ Gas_prices_df will look like this:
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
 
 
-**Script #2 - Data Analysis 
+Script #2 - Data Analysis 
 -------------------------------------
 
 SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Description|Latitude|Lontgt|
@@ -73,16 +74,20 @@ SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Descr
 2- Cumulative change over time 
 3- Average commute is 30 miles/day
 
-**Script #3 - Visualization
+Script #3 - Visualization
 ------------------------------------
 Gas_prices_df analysis using line chart, geoviz, geoJSON, along with average commute data
 
 
-**PowerPoint 
+PowerPoint 
 -------------
 Page 1 - Introduction+ What the project is about = What are we solving = HR Executive is trying to figure out gas inflation on salary increases 
 Page 2 - The data set - where we pulled it from ( BLS_) , how we pulled it,  
-Page 3-  Approach to the development : 1- Data extraction (manual or automated) 2- Data transformation ( creating dataframes,joining tables) 3- Analysis 4-Visulizations 
+Page 3-  Approach to the development :
+    -Data extraction (manual or automated) 
+    -Data transformation ( creating dataframes,joining tables) 
+    -Analysis 
+    -Visulizations 
 Page 4 - Results - Given that the prices increased but average commute per month/year decreased, the gas inflation has ...... impact on the salary increases. .
 
 
