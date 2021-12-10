@@ -84,10 +84,10 @@ PowerPoint
 Page 1 - Introduction+ What the project is about = What are we solving = HR Executive is trying to figure out gas inflation on salary increases 
 Page 2 - The data set - where we pulled it from ( BLS_) , how we pulled it,  
 Page 3-  Approach to the development :
-    -Data extraction (manual or automated) 
-    -Data transformation ( creating dataframes,joining tables) 
-    -Analysis 
-    -Visulizations 
+ -Data extraction (manual or automated) 
+ -Data transformation ( creating dataframes,joining tables) 
+ -Analysis 
+ -Visulizations 
 Page 4 - Results - Given that the prices increased but average commute per month/year decreased, the gas inflation has ...... impact on the salary increases. .
 
 
