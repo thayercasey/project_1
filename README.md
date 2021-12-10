@@ -22,6 +22,7 @@ Rough Breakdown of Tasks:
 
 Script #1- Extraction 
 -----------------------------------------------------------
+```
 #####Download prices and seriesID s
 # Imports for json, requests, 
 import requests
@@ -49,6 +50,7 @@ for series in json_data['Results']['series']:
     output.close()
 
 #### above code will download the gasoline prices / series ids and periods with years into the local machine. 
+```\
 #### Download series description tables and periods . Manual download 
 # Upload everything back into into a dataframe.  
 Use pandas read_csv method to read all three tables into its dataframes 
