@@ -73,7 +73,7 @@ SeriesID|Price|Description of the series ID| Months/Periods|Area COde|Area Descr
 2- Cumulative change over time 
 3- Average commute is 30 miles/day
 
-**Script #3 
+**Script #3 - Visualization
 ------------------------------------
 Gas_prices_df analysis using line chart, geoviz, geoJSON, along with average commute data
 
